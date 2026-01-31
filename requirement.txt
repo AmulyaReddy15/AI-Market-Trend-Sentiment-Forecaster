@@ -1,0 +1,28 @@
+groq
+nltk
+pandas
+openpyxl
+numpy
+torch
+transformers
+sentencepiece
+scikit-learn
+scipy
+streamlit
+plotly
+
+#for RAG
+
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+numpy
+
+#for gemini
+google-genai
+python-dotenv
+
+#for schedule
+schedule
