@@ -1,20 +1,30 @@
 
-step 1: cleaning.py : we cleaned our data for better data analysis 
+Step 1: Data Cleaning (cleaning.py)
+Cleans raw data by removing duplicates, handling missing values, and normalizing text to ensure high-quality input for analysis.
 
-step 2: merge data : we merged data of amazon and flipkart
+Step 2: Data Merging
+Combines Amazon and Flipkart datasets into a unified structure to enable cross-platform comparison and analysis.
 
-step 3: reduce data : so we have a lot data after merge data so that we have reduced our data 
+Step 3: Data Reduction
+Reduces dataset size after merging by filtering redundant or less relevant records, improving efficiency and performance.
 
-step 4: category.py : we have defined all the category of our data 
+Step 4: Categorization (category.py)
+Defines and assigns meaningful categories to the data, enabling structured and category-wise analysis.
 
-step 5: sentiment.py : giving sentiment to the data and also the random dates 
+Step 5: Sentiment Analysis (sentiment.py)
+Applies sentiment classification (positive, negative, neutral) to textual data and assigns dates for temporal sentiment tracking.
 
-step 6: topic modeling: we applied topic modling into our data
+Step 6: Topic Modeling
+Identifies key discussion themes and hidden patterns in the data to understand what consumers are talking about.
 
+AI Analysis & RAG Integration :
+The project uses Retrieval-Augmented Generation (RAG) to combine semantic search with AI-based reasoning.
+Relevant documents are retrieved using embeddings, and AI models generate context-aware insights, summaries, and trend explanations.
 
+API Integration :
+news_api.py – Fetches market-related news articles
+reddit.py – Collects consumer discussions and opinions
+rapid.py – Retrieves additional consumer data via Rapid API
 
-api files 
+These sources enrich the dataset and improve sentiment and trend accuracy.
 
-1. news_api.py
-2. reddit.py 
-3. rapid.py
