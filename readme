@@ -17,14 +17,22 @@ Applies sentiment classification (positive, negative, neutral) to textual data a
 Step 6: Topic Modeling
 Identifies key discussion themes and hidden patterns in the data to understand what consumers are talking about.
 
-AI Analysis & RAG Integration :
-The project uses Retrieval-Augmented Generation (RAG) to combine semantic search with AI-based reasoning.
-Relevant documents are retrieved using embeddings, and AI models generate context-aware insights, summaries, and trend explanations.
-
 API Integration :
 news_api.py – Fetches market-related news articles
 reddit.py – Collects consumer discussions and opinions
 rapid.py – Retrieves additional consumer data via Rapid API
-
 These sources enrich the dataset and improve sentiment and trend accuracy.
 
+
+AI Analysis & RAG Integration :
+The project uses Retrieval-Augmented Generation (RAG) to combine semantic search with AI-based reasoning.
+Relevant documents are retrieved using embeddings, and AI models generate context-aware insights, summaries, and trend explanations.
+
+
+Dashboard & Visualization :
+An interactive dashboard presents market trends, sentiment distribution, and category-wise insights using visual charts.
+Users can explore data dynamically to understand patterns and shifts in consumer behavior.
+
+Notifications & Alerts :
+The system includes an automated notification module that sends alerts on pipeline success, failures, or significant sentiment changes.
+This ensures timely awareness without manual monitoring.
